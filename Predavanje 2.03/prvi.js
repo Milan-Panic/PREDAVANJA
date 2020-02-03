@@ -83,3 +83,57 @@ let broj = 123;
 //     console.log('Jeste');
 
 // } else console.log('Nije');
+let znak = 'sqrt';
+let br1 = 4;
+let br2 = 2;
+if (br1 == null) {
+    console.log('Unesite broj');
+} else {
+
+    switch (znak) {
+
+        case 'pow':
+            console.log(Math.pow(br1, br2));
+            break;
+        case 'sqrt':
+            console.log(Math.sqrt(br1, br2));
+            break;
+        case 'sin':
+            console.log(Math.sin(br1), Math.sin(br2));
+            break;
+        case 'cos':
+            console.log(Math.cos(br1), Math.cos(br2));
+            break;
+
+        default:
+            break;
+    }
+}
+
+let korisnik = 'admin';
+if (korisnik == 'admin') {
+    console.log('Logovani ste kao admin');
+} else if (korisnik == 'moderator') {
+    console.log('Moderator');
+
+} else {
+    console.log('Logovani ste kao obican korisnik');
+
+}
+
+switch (korisnik) {
+    case 'admin':
+        console.log('Admin');
+
+        break;
+    case 'moderator':
+        console.log('Moderator');
+
+        break;
+
+
+    default:
+        console.log('Korisnik');
+
+        break;
+}
