@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#naslov {
+    text-align: center;
+    background-color: blueviolet;
+    color: yellow;
+    font-weight: 600;
+    height: 80px;
+    line-height: 80px;
+}
+
+#podnaslov {
+    text-align: center;
+    background-color: yellow;
+    color: blueviolet;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+}
+
+#top {
+    display: flex;
+    background-color: darkcyan;
+}
+
+#leftaside {
+    flex-grow: 1;
+    padding: 60px;
+    font-size: 40px;
+}
+
+#centerimage {
+    flex-grow: 2;
+}
+
+#rightaside {
+    flex-grow: 1;
+    padding: 60px;
+    font-size: 40px;
+}
+
+#naslov2 {
+    text-align: center;
+    background-color: yellow;
+    color: blueviolet;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+}
+
+#lista {
+    display: flex;
+    justify-content: center;
+    background-color: darkmagenta;
+}
+
+ol {
+    flex-grow: 1;
+    color: whitesmoke;
+    font-size: 40px;
+    ;
+}
