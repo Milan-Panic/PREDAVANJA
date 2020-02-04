@@ -53,12 +53,54 @@
 
 //ispisati zbir svih brojeva deljivih sa 3 u intervalu od n do m
 
-let m = 19;
-let n = 2;
-let zbir = 0;
-for (let i = n; i < m; i++) {
-    if (i % 3 == 0) {
-        zbir += i;
+// let m = 19;
+// let n = 2;
+// let zbir = 0;
+// for (let i = n; i < m; i++) {
+//     if (i % 3 == 0) {
+//         zbir += i;
+//     }
+// }
+// console.log(zbir);
+
+// for (let i = 1; i <= 10; i++) {
+//     for (let j = 1; j <= 10; j++) {
+//         console.log(i + '*' + j + '=' + i * j);
+//     }
+// }
+//kvadrat
+// let x = '';
+// for (let i = 0; i < 5; i++) {
+
+//     for (let j = 0; j < 5; j++) {
+//         x += '*';
+//     }
+//     x += '\n';
+// }
+// console.log(x);
+
+//laksi nacin za kvadrat zbog funkcije repeat
+// let x = '';
+// //x += '*'.repeat(5);
+// //console.log(x);
+// for (i = 0; i < 5; i++) {
+//     x += '*'.repeat(5) + '\n';
+// }
+// console.log(x);
+
+let m = 3;
+let n = 10;
+let x = '';
+// for (let i = 0; i < m; i++) {
+//     x += '*'.repeat(n) + '\n';
+
+// }
+// console.log(x);
+for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
+        x += '*';
     }
+    x += '\n';
+
 }
-console.log(zbir);
+console.log(x);
