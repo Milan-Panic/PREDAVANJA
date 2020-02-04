@@ -110,17 +110,34 @@
 
 //pravougaonik 4 x 10 sa praznim unutra
 
-let a = 4;
-let b = 10;
-let x = '';
-x += '*';
-x += ' '.repeat(b - 2);
-x += '*';
+// let a = 4;
+// let b = 10;
+// let x = '';
+// x += '*';
+// x += ' '.repeat(b - 2);
+// x += '*';
 
-console.log('*'.repeat(b));
+// console.log('*'.repeat(b));
 
-for (let j = 0; j < (a - 2); j++) {
+// for (let j = 0; j < (a - 2); j++) {
 
-    console.log(x);
+//     console.log(x);
+// }
+// console.log('*'.repeat(b));
+// varijanta za pisanje kvadrata bez repeat funkcije
+let kol = 10;
+let red = 4;
+let l1 = '';
+for (let i = 0; i < kol; i++) {
+    l1 += '*';
 }
-console.log('*'.repeat(b));
+console.log(l1);
+let l2 = '*';
+for (let i = 0; i < kol - 2; i++) {
+    l2 += ' ';
+}
+l2 += '*';
+for (let i = 0; i < red - 2; i++) {
+    console.log(l2);
+}
+console.log(l1);

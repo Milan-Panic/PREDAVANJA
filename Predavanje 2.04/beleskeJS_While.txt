@@ -1,2 +1,12 @@
 Pocetak: While petlja
 nikolamarkovic98
+
+i=0;
+for(i;i<0;){
+  if(i==5){
+    break
+  }
+  i++
+}
+
+
