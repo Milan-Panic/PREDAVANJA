@@ -88,19 +88,39 @@
 // }
 // console.log(x);
 
-let m = 3;
-let n = 10;
-let x = '';
+// let m = 3;
+// let n = 10;
+// let x = '';
+// // for (let i = 0; i < m; i++) {
+// //     x += '*'.repeat(n) + '\n';
+
+// // }
+// // console.log(x);
 // for (let i = 0; i < m; i++) {
-//     x += '*'.repeat(n) + '\n';
+//     for (let j = 0; j < n; j++) {
+//         x += '*';
+//     }
+//     x += '\n';
 
 // }
 // console.log(x);
-for (let i = 0; i < m; i++) {
-    for (let j = 0; j < n; j++) {
-        x += '*';
-    }
-    x += '\n';
 
+// console.log(
+//     '*'.repeat(3).repeat(5)); // ovo ispise 15 zvezdica
+
+//pravougaonik 4 x 10 sa praznim unutra
+
+let a = 4;
+let b = 10;
+let x = '';
+x += '*';
+x += ' '.repeat(b - 2);
+x += '*';
+
+console.log('*'.repeat(b));
+
+for (let j = 0; j < (a - 2); j++) {
+
+    console.log(x);
 }
-console.log(x);
+console.log('*'.repeat(b));
