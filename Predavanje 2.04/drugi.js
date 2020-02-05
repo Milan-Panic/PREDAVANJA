@@ -151,25 +151,25 @@
 
 // VARIJANTA ISPISIVANJA SUPLJEG KVADRATA UGNJEZDAVANJEM
 
-let kol = 10;
-let red = 4;
-let l1 = '';
-for (let i = 0; i < kol; i++) {
-    l1 += '*';
-}
+// let kol = 10;
+// let red = 4;
+// let l1 = '';
+// for (let i = 0; i < kol; i++) {
+//     l1 += '*';
+// }
 
-console.log(l1); //puna linija koja je napravljena u prvoj petlji
+// console.log(l1); //puna linija koja je napravljena u prvoj petlji
 
-let l2 = '*'; //dodajemo prvu zvezdicu u supljem redu
-for (let i = 0; i < kol - 2; i++) { //petljom na nju nadovezujemo potreban broj praznina
-    l2 += ' '; //ovom petljom pisemo po horizontali
-}
+// let l2 = '*'; //dodajemo prvu zvezdicu u supljem redu
+// for (let i = 0; i < kol - 2; i++) { //petljom na nju nadovezujemo potreban broj praznina
+//     l2 += ' '; //ovom petljom pisemo po horizontali
+// }
 
-l2 += '*'; //dodajemo zvezdicu na kraju reda
+// l2 += '*'; //dodajemo zvezdicu na kraju reda
 
-for (let i = 0; i < red - 2; i++) { //zavrtimo petlju da pisemo po vertikali koliko nam redova treba
-    console.log(l2);
-}
-console.log(l1); //puna linija koja je napravljena u prvoj petlji poziva se i ovde
+// for (let i = 0; i < red - 2; i++) { //zavrtimo petlju da pisemo po vertikali koliko nam redova treba
+//     console.log(l2);
+// }
+// console.log(l1); //puna linija koja je napravljena u prvoj petlji poziva se i ovde
 
 
