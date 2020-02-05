@@ -8,5 +8,4 @@ while (true) {
     if (num == 1000)
         break;
     i++;
-
 }
