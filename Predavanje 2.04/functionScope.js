@@ -1,6 +1,7 @@
 var myGlobal = 10;
-function fun1(){
-      oopsGlobal = 5;
+
+function fun1() {
+    oopsGlobal = 5;
 }
 /*
     Da je u ovoj funkciji iznad ova varijabla oopsGlobal bila inicijalizovana uz VAR
@@ -17,4 +18,4 @@ function fun2() {
     console.log(output);
 }
 fun1();
-fun2();   
+fun2();
