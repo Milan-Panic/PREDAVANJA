@@ -33,6 +33,8 @@
 // for (let i = 1; i <= n; i++) {
 //     if (i % 2 == 0) {
 //         dl = Math.pow(i, 2);
+//         //console.log(1/dl);
+        
 //         sum += (1 / dl);
 //     }
 
@@ -64,28 +66,26 @@
 /* 
     I S = 1! + 3! + 5!...
 */
-// let f = 5;
-// let zbir = 0;
-// let facto = 1;
-// for (let k = 1; k <= f; k++) {
-//     if (k % 2 != 0) {
-//         continue;
-//     } else {                  NE RADI ISPRAVNO
-//         facto *= k;
-//         zbir += 1 / facto;
-//     }
-// }
-// console.log(zbir);S
-
-let w = 5;
-let p = '*'.repeat(5);
-//let vrh = ' '*m/2;
-console.log(' '.repeat(w / 2));
-
-//ostatak krova 
-for (let i = 1; i < w / 2; i++) {
-    let krov = ' '.repeat(w - i - 1) + '*' + ' '.repeat(i) + '*';
-    console.log(krov);
-
-
+let f = 5;
+let zbir = 0;
+let facto = 1;
+for (let k = 1; k <= f; k++) {
+    if (k % 2 != 0) {
+        facto *= k;
+        zbir += 1 / facto;
+    }
 }
+console.log(zbir);
+
+// let w = 5;
+// let p = '*'.repeat(5);
+// //let vrh = ' '*m/2;
+// console.log(' '.repeat(w / 2));
+
+// //ostatak krova 
+// for (let i = 1; i < w / 2; i++) {
+//     let krov = ' '.repeat(w - i - 1) + '*' + ' '.repeat(i) + '*';
+//     console.log(krov);
+
+
+// }
