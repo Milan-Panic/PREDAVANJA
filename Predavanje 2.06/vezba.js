@@ -331,4 +331,12 @@
 //     pr = '';
 //     zv = '';
 // }
-
+//  let n = 9;
+//  let k = 5;
+//  let sum = 0;
+//  for (let i = 1; i <= n+1; i++) {
+//      console.log(i);
+//       sum += i/k;
+//       k++;console.log(`${i}kroz${k}`);
+//  } 
+//  console.log(sum);
