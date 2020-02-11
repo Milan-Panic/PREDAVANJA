@@ -1,0 +1,26 @@
+note modules
+
+dodatni alat omogucava nam da interpretiramo js i dodajemo dodatne biblioteke
+
+dependensi --zavisnost
+
+crypt bibiliotek bekend
+
+react frontend biblioteke
+
+webpack je okruzenje u js koje nam sajt zapakuje i servira na neki lokalni server, korisno je 
+sto pravi zavisnost izmedju js fajlova. spakuje sav kod u jedan nabacan fajl
+
+babelrc ecma skript je standard, ovo je parser koji prebacuje u ecma script 5
+
+package.json npn build da nam da konacnu verziju sajta koju mozemo da posaljemo negde
+
+heroku besplatan hosting
+
+eslintrc.json alat protiv pisanja loseg koda, ne daje nam da prevedemo kod dok ima neku gresku
+
+
+npm init inicijalicacija novog projekta
+npm install ako imamo fajlove 
+
+radimo npm start
