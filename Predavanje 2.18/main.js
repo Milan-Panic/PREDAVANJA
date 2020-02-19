@@ -106,7 +106,7 @@ function ispisiRecept(recept) {
 //ispisiRecept(recept5);
 let recepti2 = [recept1, recept2, recept3, recept4, recept5];
 
-//let app = document.querySelector('#app');
+let app = document.querySelector('#app');
 recepti2.forEach((el) => {
     console.log(el.imeRecepta);
     var para = document.createElement("p");
@@ -167,12 +167,45 @@ let recept10 = {
     tezinaRecepta: 'pocetni',
     sastojci: [sastojak1, sastojak2, sastojak3, sastojak4, sastojak5],
 }
-
-function cenaRecepta(recept) {
-    let cena = 0;
-    recept.sastojci.forEach(el => {
-        cena += el.kolicina * el.cena;
-    });
-    return cena
+let recept11 = {
+    imeRecepta: 'vanilice',
+    tezinaRecepta: 'profi',
+    sastojci: [, sastojak2, sastojak3, sastojak5],
 }
-console.log(cenaRecepta(recept10));
+let recept12 = {
+    imeRecepta: 'rafaelo',
+    tezinaRecepta: 'lako',
+    sastojci: [sastojak1, sastojak5],
+}
+let receptiSaSastojcima = [recept10, recept11, recept12];
+// function cenaRecepta(recept) {
+//     let cena = 0;
+//     for (let i = 0; i < recept.length; i++) {
+//         recept[i].sastojci.forEach(el => {
+//             cena += el.kolicina * el.cena;
+//         });
+//     }
+
+//     return cena
+// }
+// console.log(cenaRecepta(receptiSaSastojcima));
+
+let divv = document.querySelector("#sastojci");
+receptiSaSastojcima.forEach((element) => {
+    var rec = document.createElement("p");
+    rec.innerHTML = `<li>Ime recepta je: ${element.imeRecepta} <br>  Odredjena tezina je: ${element.tezinaRecepta} <br>Sastojci su:<br></li>`;
+
+
+    element.sastojci.forEach((cl) => {
+        console.log(cl.cena, cl.imeSastojka, cl.kolicina);
+        rec.innerHTML += `<ol><li>Ime sastojka: ${cl.imeSastojka}</li><li>cena ${cl.cena}</li><li>kolicina ${cl.kolicina}</li></ol>`
+
+    })
+    var kon = document.getElementById("sastojci");
+    kon.appendChild(rec);
+    console.log(element.imeRecepta);
+})
+
+
+
+
