@@ -1,0 +1,57 @@
+/*type------------------------------------------*/
+
+@import './bootcampstrap.css';
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+#logo {
+    height: 60px;
+}
+
+.signx {
+    height: 45px;
+    width: 130px;
+    margin-right: 5px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.frm-singin {
+    margin: 10px auto;
+    width: 25%;
+    text-align: center;
+}
+
+.frm-singin input {
+    display: block;
+    margin: 10px auto;
+    height: 40px;
+    width: 200px;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+#signin {
+    width: 120px;
+    height: 50px;
+    font-size: 2em;
+    font-weight: 600;
+}
