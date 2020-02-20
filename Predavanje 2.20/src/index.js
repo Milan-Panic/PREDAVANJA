@@ -2,6 +2,7 @@ let tasks = [];
 let counter = 0;
 //uuidv()
 //npm install uuid
+//treba i uvesti u fajl
 const todoForm = document.querySelector("#todo-add");
 const descInput = document.querySelector("#desc");
 const taskList = document.querySelector("#list");
