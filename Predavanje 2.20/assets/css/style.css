@@ -1,0 +1,47 @@
+/*type------------------------------------------*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+    width: 25%;
+    background-color: blueviolet;
+    margin-left: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.list-item {
+    display: flex;
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    color: cornsilk;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+input,
+button {
+    border: 3px solid chartreuse;
+    border-radius: 10px;
+    background-color: rgb(190, 129, 246);
+    color: cornsilk;
+}
+
+input:focus {
+    border: 1px solid blueviolet;
+}
+
+#desc {
+    width: 300px;
+    color: cornsilk;
+    height: 30px;
+}
