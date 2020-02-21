@@ -1,0 +1,31 @@
+innerthml, trazi se od stranice da se re-renderuje
+pretrazivac ga ponovo iscrtava. i tako se gube evant listeneri jer doda samo poslednjem.
+listItem createElement div
+taskDesc createElement li
+listControl createElement div
+checkTask createElement input
+btnDelete createElement button
+
+listItem.className='list-item'
+taskDesc.innerText=task.desc
+listItem.appendChild(taskDesc)
+listControl.id = 'list-control'
+checkTask.type = 'checkbox'
+checkTask.addEventListener
+
+uu task objkektu mozemo da dodamo nov properti koji nosi vrednost false za cekirano polje. U even hedleru taj properti stavljamo da je jednak
+event.target.checked koje dobija iz check boksa
+
+btnDelete.innerText = 'X'
+btnDelete.addEventListener('click',(e)=>{
+  listItem.remove();
+})
+listControl.appendChild(btnDelete);
+listItem.appendChild(listControl);
+
+taskList.appendChild(listItem); 
+
+ovako renderuje samo taj nov createElement
+
+
+
