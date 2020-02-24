@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(255, 254, 208);
+    font-family: "Trebuchet MS";
+}
+
+h1{
+    text-align: center;
+}
+
+.list{
+    display: block;
+    list-style-type: none;
+    width: 600px;
+    min-height: 350px;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: solid 4px #2c3033;
+    background-image: radial-gradient(rgb(186,192,189) 0%, rgb(167,165,165) 100%);
+    box-shadow: 0 0 0px 1px rgba(255,255,255,.4),
+                0 0 0px 3px #2c3033;
+    text-align: center;
+}
+
+.list-item{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.list-item li{
+    display: inline-block;
+    margin-right: 5px;
+    width: 80%;
+}
+
+#list-control{
+    display: inline-block;
+    width: 15%;
+}
+
+#list-control button{
+    position: relative;
+    left: 50px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(250,171,171);
+    padding: 1px;
+    cursor: pointer;
+}
+
+#list-control button:hover{
+    background-color: rgba(243,123,123);
+}
+
+.list-item:nth-child(odd){
+    background-color: rgba(6, 6, 226, 0.1);
+}
+
+
+
