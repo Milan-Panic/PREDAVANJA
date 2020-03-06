@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+    <title>Coetus</title>
+    <style>
+        #poruke {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .poruka {
+            width: 25%;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <form id="form1">
+            <input type="text" id="nadimak" placeholder="Unesite nadimak!">
+            <input type="submit" value="Kreiraj" id="btn1">
+        </form><br>
+        <div id="poruke"></div><br>
+        <form id="forma2">
+            <input type="text" placeholder="Unesite poruku" id="poruka"><br>
+            <input type="submit" value="Posalji" id="btn2">
+        </form>
+    </div>
+    <hr>
+    <input type="button" value="Moje Poruke" id="btn3">
+    <div id="moje"></div>
+</body>
+
+</html>
