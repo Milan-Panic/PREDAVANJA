@@ -59,7 +59,7 @@ function filterItems(e){
   var items = itemList.getElementsByTagName('li');
   // Convert to an array
   Array.from(items).forEach(function(item){
-    var itemName = item.firstChild.textContent;
+    var itemName = item.firstChild.textContent; //firstChild dodajemo da bi uhvatilo samo vrednost LI taga, da ne hvata i vrednost dugmeta koja je X
     if(itemName.toLowerCase().indexOf(text) != -1){ //indexOf vraca indeks nadjenog clana, u suprotnom vraca -1
       item.style.display = 'block';
     } else {

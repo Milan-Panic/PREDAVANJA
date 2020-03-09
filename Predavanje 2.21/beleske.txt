@@ -13,7 +13,7 @@ listControl.id = 'list-control'
 checkTask.type = 'checkbox'
 checkTask.addEventListener
 
-uu task objkektu mozemo da dodamo nov properti koji nosi vrednost false za cekirano polje. U even hedleru taj properti stavljamo da je jednak
+uu task objkektu mozemo da dodamo nov properti koji nosi vrednost false za cekirano polje. U even hendleru taj properti stavljamo da je jednak
 event.target.checked koje dobija iz check boksa
 
 btnDelete.innerText = 'X'

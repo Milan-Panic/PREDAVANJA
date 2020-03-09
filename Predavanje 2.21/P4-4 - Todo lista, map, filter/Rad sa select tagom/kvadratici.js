@@ -8,9 +8,11 @@ dugme.addEventListener('click', (e) => {
         case 'crveni':
             boja = '#ff0000';
             break;
-        case 'zeleni': boja = '#00ff00';
+        case 'zeleni': 
+            boja = '#00ff00';
             break;
-        case 'plavi': boja = '#0000ff'; break;
+        case 'plavi': 
+            boja = '#0000ff'; break;
         default:
             boja = '#000000';
             break;
