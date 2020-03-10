@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Milan",
+      "password": "milan123"
+    },
+    {
+      "id": 2,
+      "name": "Jelena",
+      "password": "jelena123"
+    },
+    {
+      "id": 0.36593939218975247,
+      "name": "Telefon",
+      "password": "1234"
+    },
+    {
+      "id": 0.3621855520243893,
+      "name": "Djoka",
+      "password": "1234"
+    },
+    {
+      "id": 0.15054802571919934,
+      "name": "Mikisa",
+      "password": "miaia"
+    }
+  ]
+}

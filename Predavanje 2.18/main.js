@@ -178,10 +178,14 @@ let recept12 = {
     sastojci: [sastojak1, sastojak5],
 }
 let receptiSaSastojcima = [recept10, recept11, recept12];
-// function cenaRecepta(recept) {
+
+
+
+
+// function cenaRecepta(nizRecepata) {
 //     let cena = 0;
-//     for (let i = 0; i < recept.length; i++) {
-//         recept[i].sastojci.forEach(el => {
+//     for (let i = 0; i < nizRecepata.length; i++) {
+//         nizRecepata[i].sastojci.forEach(el => {
 //             cena += el.kolicina * el.cena;
 //         });
 //     }
@@ -189,6 +193,8 @@ let receptiSaSastojcima = [recept10, recept11, recept12];
 //     return cena
 // }
 // console.log(cenaRecepta(receptiSaSastojcima));
+
+
 
 let divv = document.querySelector("#sastojci");
 receptiSaSastojcima.forEach((element) => {

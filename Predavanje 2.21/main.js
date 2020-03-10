@@ -51,8 +51,7 @@
 
 // */
 // let ljubiteljiJS = osobe.filter(osoba => {
-//         return osoba.jezik == 'JavaScript';
-//         S
+//         return osoba.jezik == 'JavaScript';         
 //     })
 //     //console.log(ljubiteljiJS);
 // let brojeviVeciOdPet = brojevi.filter(broj => {

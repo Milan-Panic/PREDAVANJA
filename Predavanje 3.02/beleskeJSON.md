@@ -5,7 +5,7 @@ metoda GET ima header ali nema body, mozemo da posaljemo zagtev a li putem nje n
 
 POST metoda salje i telo, njom mozemo da posaljemo jos neki dodatni podatak
 
-neke metode koje lice na post su ali imaju sematnicki drugaciju primenu
+neke metode koje lice na post ali imaju sematnicki drugaciju primenu
 PUT
 DELETE
 PATCH
