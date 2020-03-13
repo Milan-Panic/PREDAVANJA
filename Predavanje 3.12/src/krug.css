@@ -1,0 +1,9 @@
+.krug{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  position: relative;
+  left: 45%;
+  top: 300px;
+}
